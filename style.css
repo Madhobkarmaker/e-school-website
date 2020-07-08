@@ -1,0 +1,120 @@
+.header-part{
+    background: #F0FFF0;
+    left: 0px;
+    top: 0px;
+}
+.navbar img{
+    width: 200px;
+    margin-top: 20px;
+}
+.nav-link:hover{
+    background-image: h6near-gradient(to bottom,#91f052 0%, rgb(22, 216, 230) 100%);
+    border-radius: 20%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#nav{
+    text-ah6gn: center;
+    background-image: h6near-gradient(to bottom,#91f052 0%, rgb(22, 216, 230) 100%);
+    color: white;
+    border-radius: 25px;
+    width: 85px;
+    height: 40px;
+}
+.start-course{
+    background-image: linear-gradient(to bottom,#91f052 0%, rgb(22, 216, 230) 100%);
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 9px 25px;
+    color: #fff;
+    border: none;
+}
+#Courses{
+    margin-top: 50px;
+}
+.col-md-3{
+    
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 20px;
+    width: 250px;
+    
+}
+
+.item{
+    margin-top: 60px;
+    margin-left: 60px;
+    height: 180px;
+    
+}
+.col-md-3{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+}
+.col-md-3 img{
+    width: 68px;
+    height: 76px;
+    margin-left: 20px;
+}
+.books-row{
+    margin-top: 20px;
+}
+.text{
+    margin-top: 10px;
+    font-family: Poppins;
+}
+.text a{
+    margin-left:25px;
+}
+#courses{
+    margin-top: 50px ;
+}
+.card img{
+    width: 90%;
+   
+   margin: 20px auto;
+}
+.card-deck{
+    margin-top: 30px;
+}
+.card{
+    border-radius: 20px;
+}
+.admission img{
+    width: 50px;
+}
+.admission{
+    margin: auto;
+}
+.card-footer{
+    border: none;
+}
+#Blog{
+    margin-top: 70px;
+}
+.testimonial img{
+    width: 150px;
+    
+}
+.testimonial{
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+#Admission{
+    margin-top: 150px;
+}
+.admission-form{
+    background-color: #F0FFF0;
+}
+.footer{
+    margin-top: 50px;
+    background: #282531;
+}
+.title{
+    color: rgb(243, 61, 29);
+}
+
+
+
+

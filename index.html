@@ -3,9 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-School Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+                                              <!-- main part -->
+
+    <section class="header-part">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light " style=" background: #F0FFF0">
+                <img src="images/ICON/Logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#HOME">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Books">Books
+
+                        </a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Courses
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#WEB DESIGN">WEB DESIGN</a>
+                          <a class="dropdown-item" href="#DIGITAL MARKETING">DIGITAL MARKETING</a>
+                          <a class="dropdown-item" href="#GRAPHIC DESIGN">GRAPHIC DESIGN</a>
+                        </div>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Admission">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Blog">Blog</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact us">Contact us</a>
+                      </li>
+                      <li class="nav-item" id="nav">
+                        <a class="nav-link" href="#Sign in">Sign in</a>
+                      </li>         
+                  </ul>
+                </div>
+              </nav>
+              <div>
+                  <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 space" >
+                         <h6 class="text-danger font-weight-bold">Are you ready to Learn?</h6>
+                         <h2 class="text-primary font-weight-bold">Learn With Fun on any schedule</h2>
+                         <h6>JOIN ONLINE LIVE CLASSROOM AND START FREELANCING </h6>
+                         <h6>LEARN AND EARN FROM ONLINE</h6>
+                         <h4 class="text-primary font-weight-bold">Industry experts are now available online</h4>
+                         <button class="start-course">Get Started</button>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="images/Photos/Illustration.png" class="d-block w-100" alt="..." style="width: 554px;">
+                        </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+
+                     <!-- Books items -->
+
+    <div class="container d-flex align-items-center justify-content-center" id="Books">
+        <div class="row books-row ">
+            <div class="col-md-3">
+                <div class="item">
+                    <div>
+                        <img src="images/ICON/book.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>1500+ Topic</h5>
+                        <a href="#learn more"><small>Learn more</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="item">
+                    <div>
+                        <img src="images/ICON/Student.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>1800+ Students</h5>
+                        <a href="#learn more"><small>Learn more</small></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-3">
+                <div class="item">
+                    <div>
+                        <img src="images/ICON/Students.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>9k Test Token</h5>
+                        <a href="#learn more"><small>Learn more</small></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-3">
+                <div class="item">
+                    <div>
+                        <img src="images/ICON/Test.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h5>1500+ Books</h5>
+                        <a href="#learn more"><small>Learn more</small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                           <!-- Online courses -->
+
+
+    <div class="container online-courses" id="Courses">
+        <div class="text-center">
+            <h2>Online Courses</h2>
+        </div>
+            <div class="card-deck">
+                <div class="card" id="WEB DESIGN">
+                  <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">WEB DESIGN</h3>
+                    <p class="card-text">In this era of information technology <b>WEB DESIGN</b> is one of the most practiced topic of the world. Be it small or be it big digital marketing has become very popular to promote any kind of business.</p>
+                    <button class="start-course">Buy Course</button>
+                  </div>
+                  <div class="card-footer">
+                    <div class="admission">
+                        <img src="images/ICON/calendar.png" alt="">
+                         <p>Start 20 April, 2021</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card"  id="DIGITAL MARKETING ">
+                  <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body" >
+                    <h3 class="card-title">DIGITAL MARKETING</h3>
+                    <p class="card-text">In this era of information technology <b>DIGITAL MARKETING</b> is one of the most practiced topic of the world. Be it small or be it big digital marketing has become very popular to promote any kind of business.</p>
+                    <button class="start-course">Buy Course</button>
+                  </div>
+                  <div class="card-footer">
+                    <div class="admission">
+                        <img src="images/ICON/calendar.png" alt="">
+                         <p>Start 20 April, 2021</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card" id="GRAPHICS DESIGN">
+                  <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">GRAPHICS DESIGN</h3>
+                    <p class="card-text">In this era of information technology <b>GRAPHICS DESIGN</b> is one of the most practiced topic of the world. Be it small or be it big digital marketing has become very popular to promote any kind of business.</p>
+                    <button class="start-course">Buy Course</button>
+                  </div>
+                  <div class="card-footer">
+                    <div class="admission">
+                        <img src="images/ICON/calendar.png" alt="">
+                         <p>Start 20 April, 2021</p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+                             <!-- Testimonial blog part -->
+
+        <div class="container" id="Blog"> 
+            <div class="text-center"">
+                <h3>Testimonial</h3>
+            </div>
+            <div class=" testimonial ">
+                <div class="float-left  ">
+                    <img src="images/Photos/Man.png" alt="">
+                </div>
+                <div class="comments">
+                    <h6>I have always wished for attending online class from home for long. <br> Ultimately E-School has opened that door for me. <br>here are many variations of passages of Lorem Ipsum available.</h6>
+                </div>
+            </div>
+        </div>
+
+
+                      <!-- Admission form -->
+
+        <section class="form" id="Admission">
+            
+            <div class="container admission-form">
+                <div style="text-align: center;">
+                    <h1>admission-form</h1>
+                </div>
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Dhaka</option>
+                          <option>Rajshashi</option>
+                          <option>Khulna</option>
+                          <option>Barishal</option>
+                          <option>Jessor</option>
+                          <option>Chittagong</option>
+                          <option>Rangpur</option>
+                          <option>Sylhet</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </form>
+            </div>
+        </section>
+
+                            <!-- Footer -->
+
+
+        <section class="footer">
+            <div class="container final-part">
+                <div class="end-part d-flex bd-highlight">
+                    <div class="p-2 flex-fill bd-highlight ">
+                        <h2 class="title" id="Contact us">Contact us</h2>
+                        <h6 class="text-white">Gmail: madhobkarmakar@gmail.com</h6>
+                        <h6 class="text-white">Phone: 01751******</h6>
+                        <h6 class="text-white">Address: khilkhet,Dhaka</h6>
+                        <h6 class="text-white">Website: www.ingologyIT.com</h6>
+                    </div>
+                    <div class="p-2 flex-fill bd-highlight ">
+                        <h2 class="title">Courses</h2>
+                        <h6 class="text-white">Web Desisn</h6>
+                        <h6 class="text-white">Digital Marketing</h6>
+                        <h6 class="text-white">Graphics Design</h6>
+                        <h6 class="text-white">Seo</h6>
+                        <h6 class="text-white">Networking</h6>
+                        </div>
+                    <div class="p-2 flex-fill bd-highlight">
+                        <h2 class="title">Payment</h2>
+                        <h6 class="text-white">Nexus Card</h6>
+                        <h6 class="text-white">Bkash</h6>
+                        <h6 class="text-white">Rocket</h6>
+                        <h6 class="text-white">Nogod</h6>
+                        <h6 class="text-white">Paypal</h6>
+                    </div>
+                  </div>
+                   
+            </div>
+            <div class="text-white" style="text-align: center; margin-top: 100px;"">
+                <p1>Copyright © 2020 || All Rights Reserved by e-learning community.</p1>
+            </div>      
+        </section>
+       
+            
+                       
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
